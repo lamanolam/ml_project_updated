@@ -1,0 +1,46 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.10.0",
+    "heartbeatAt": "2024-05-07T19:19:49.404923",
+    "startedAt": "2024-05-07T19:19:46.996028",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "host": "Ulkar-PC",
+    "username": "User",
+    "executable": "c:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1792.0,
+        "min": 0.0,
+        "max": 1992.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1792.0,
+            "min": 0.0,
+            "max": 1992.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 475.8381996154785,
+            "used": 323.1146697998047
+        }
+    },
+    "gpu": "NVIDIA GeForce MX150",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce MX150",
+            "memory_total": 2147483648
+        }
+    ],
+    "memory": {
+        "total": 7.787357330322266
+    }
+}

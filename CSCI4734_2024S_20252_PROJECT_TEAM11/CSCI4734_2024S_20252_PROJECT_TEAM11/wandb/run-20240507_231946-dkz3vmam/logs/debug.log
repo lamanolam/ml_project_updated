@@ -1,0 +1,47 @@
+2024-05-07 23:19:46,996 INFO    MainThread:1460 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-05-07 23:19:47,004 INFO    MainThread:1460 [wandb_setup.py:_flush():76] Configure stats pid to 1460
+2024-05-07 23:19:47,004 INFO    MainThread:1460 [wandb_setup.py:_flush():76] Loading settings from C:\Users\User\.config\wandb\settings
+2024-05-07 23:19:47,004 INFO    MainThread:1460 [wandb_setup.py:_flush():76] Loading settings from c:\Users\User\Documents\ADA\Cat-Breed-Classifier-master - Copy\wandb\settings
+2024-05-07 23:19:47,004 INFO    MainThread:1460 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-05-07 23:19:47,004 INFO    MainThread:1460 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-07 23:19:47,004 INFO    MainThread:1460 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-05-07 23:19:47,005 INFO    MainThread:1460 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-07 23:19:47,005 INFO    MainThread:1460 [wandb_init.py:_log_setup():521] Logging user logs to c:\Users\User\Documents\ADA\Cat-Breed-Classifier-master - Copy\wandb\run-20240507_231946-dkz3vmam\logs\debug.log
+2024-05-07 23:19:47,005 INFO    MainThread:1460 [wandb_init.py:_log_setup():522] Logging internal logs to c:\Users\User\Documents\ADA\Cat-Breed-Classifier-master - Copy\wandb\run-20240507_231946-dkz3vmam\logs\debug-internal.log
+2024-05-07 23:19:47,005 INFO    MainThread:1460 [wandb_init.py:_jupyter_setup():467] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000025C800DCEE0>
+2024-05-07 23:19:47,005 INFO    MainThread:1460 [wandb_init.py:init():561] calling init triggers
+2024-05-07 23:19:47,005 INFO    MainThread:1460 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {}
+2024-05-07 23:19:47,005 INFO    MainThread:1460 [wandb_init.py:init():611] starting backend
+2024-05-07 23:19:47,005 INFO    MainThread:1460 [wandb_init.py:init():615] setting up manager
+2024-05-07 23:19:47,011 INFO    MainThread:1460 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-05-07 23:19:47,014 INFO    MainThread:1460 [wandb_init.py:init():623] backend started and connected
+2024-05-07 23:19:47,018 INFO    MainThread:1460 [wandb_run.py:_label_probe_notebook():1299] probe notebook
+2024-05-07 23:19:47,018 INFO    MainThread:1460 [wandb_run.py:_label_probe_notebook():1309] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-05-07 23:19:47,018 INFO    MainThread:1460 [wandb_init.py:init():715] updated telemetry
+2024-05-07 23:19:47,026 INFO    MainThread:1460 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-05-07 23:19:47,833 INFO    MainThread:1460 [wandb_run.py:_on_init():2357] communicating current version
+2024-05-07 23:19:48,843 INFO    MainThread:1460 [wandb_run.py:_on_init():2366] got version response 
+2024-05-07 23:19:48,843 INFO    MainThread:1460 [wandb_init.py:init():799] starting run threads in backend
+2024-05-07 23:19:49,879 INFO    MainThread:1460 [wandb_run.py:_console_start():2335] atexit reg
+2024-05-07 23:19:49,880 INFO    MainThread:1460 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2024-05-07 23:19:49,880 INFO    MainThread:1460 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2024-05-07 23:19:49,880 INFO    MainThread:1460 [wandb_run.py:_redirect():2280] Redirects installed.
+2024-05-07 23:19:49,881 INFO    MainThread:1460 [wandb_init.py:init():842] run started, returning control to user process
+2024-05-07 23:19:49,881 INFO    MainThread:1460 [wandb_config.py:__setitem__():151] config set learning_rate = 0.001 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000025C80167730>>
+2024-05-07 23:19:49,882 INFO    MainThread:1460 [wandb_run.py:_config_callback():1347] config_cb learning_rate 0.001 None
+2024-05-07 23:19:49,882 INFO    MainThread:1460 [wandb_config.py:__setitem__():151] config set batch_size = 25 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000025C80167730>>
+2024-05-07 23:19:49,882 INFO    MainThread:1460 [wandb_run.py:_config_callback():1347] config_cb batch_size 25 None
+2024-05-07 23:19:49,883 INFO    MainThread:1460 [wandb_config.py:__setitem__():151] config set epochs = 100 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000025C80167730>>
+2024-05-07 23:19:49,883 INFO    MainThread:1460 [wandb_run.py:_config_callback():1347] config_cb epochs 100 None
+2024-05-08 01:19:53,064 INFO    MainThread:1460 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-05-08 01:19:53,067 INFO    MainThread:1460 [wandb_init.py:_pause_backend():432] pausing backend
+2024-05-08 01:19:53,197 INFO    MainThread:1460 [wandb_init.py:_resume_backend():437] resuming backend
+2024-05-08 01:19:53,861 INFO    MainThread:1460 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-05-08 01:19:53,861 INFO    MainThread:1460 [wandb_init.py:_pause_backend():432] pausing backend
+2024-05-08 01:19:53,904 INFO    MainThread:1460 [wandb_init.py:_resume_backend():437] resuming backend
+2024-05-08 01:19:55,106 INFO    MainThread:1460 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-05-08 01:19:55,107 INFO    MainThread:1460 [wandb_init.py:_pause_backend():432] pausing backend
+2024-05-08 01:19:55,128 INFO    MainThread:1460 [wandb_init.py:_resume_backend():437] resuming backend
+2024-05-08 01:19:55,219 INFO    MainThread:1460 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-05-08 01:19:55,219 INFO    MainThread:1460 [wandb_init.py:_pause_backend():432] pausing backend
